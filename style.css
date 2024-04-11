@@ -1,584 +1,118 @@
-/* NAVBAR CSS START */
-.navbar{
-    height: 80px;
-    background-color: #fff;
-    top: 0;
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 10;
-    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
-    /* width : 53 height :36 */
-    align-items: center;
-    /* justify-content: center; */
-    display: flex;
+* {
+  margin: 0;
 }
 
-.logo{
-    background-image: url("myntra-logo.png");
-    background-size: cover;
-    height: 50px;
-    width: 90px;
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.men{
-    font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    padding-left: 25px;
+.navbar img {
+  cursor: pointer;
+  width: 50px;
+  border-radius: 40%;
+  height: 50px;
 }
 
-.women{
-    font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    padding-left: 25px;
+#js_title {
+  font-weight: 500;
+  font-size: 34px;
+  color: yellow;
 }
 
-.kids{
-    font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    padding-left: 25px;
+.navbar_right {
+  display: flex;
+  gap: 25px;
 }
 
-.home_living{
-    font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    padding-left: 25px;
+.navbar_right a {
+  cursor: pointer;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: black;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
 }
 
-.beauty{
-    font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    padding-left: 25px;
+.navbar_right a:hover {
+  color: coral;
 }
 
-.studio{
-    font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    padding-left: 25px;
+#menu {
+  font-size: 41px;
+  display: none;
 }
 
-
-.nav-search{
-    padding-left: 160px;
-    font-weight: bold;
-    height: 30px;
-    display: flex;
-    border: black;
-}
-
-.search-icon{
-    height: 27px;
-    width: 20px;
-    padding: 8px 7px 2px;
-    /* border: black; */
-    background-color: #f5f5f6;
-}
-
-.search-input{
-    width: 18rem;
-    height: 35px;
-    background-color: #f5f5f6;
-    border: none;
-}
-
-.profile{
-    padding-left: 16px;
-}
-.box1{
-    padding-left: 30px;
-}
-
-.wishlist{
-    padding-left: 16px;
-}
-.box2{
-    padding-left: 30px;
-}
-
-.bag{
-    padding-left: 5px;
-}
-.box3{
-    padding-left: 30px;
-}
-
-/* NAVBAR CSS END */
-
-/* HERO SECTION START */
-
-.hero-section{
-    background-image: url("hero_banner_1.jpg");
-    background-size: cover;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.hero_second_section{
-    margin-top: 20px;
-    background-image: url("hero_banner_2_phase.jpg");
-    background-size: cover;
-    height: 140px;
-}
-
-.deal{
-    margin: 50px 0px 10px 30px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-.box{
-    /* border: 2px solid black; */
-    width: 163px;
-    height: 250px;
-    display: inline-block;
-    background-color: white;
-    padding: 0px 0px 15px;
-    /* margin-top: 1rem; */
-    margin-bottom: 1rem;
-}
-
-.box-img{
-    margin-top: 5px;
-    height: 250px;
-    background-size: cover;
-    left: 0px;
-    right: 0px;
-}
-
-.best_brand{
-    margin: 5px 0px 10px 30px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-
-.best{
-    width: 163px;
-    height: 220px;
-    display: inline-block;
-    background-color: white;
-    padding: 20px 0px 15px;
-}
-
-.box-image{
-    margin-top: 5px;
-    height: 220px;
-    background-size: cover;
-
-}
-
-.top-pics{
-    margin: 50px 0px 10px 30px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-.topstyle{
-    width: 180px;
-    height: 220px;
-    display: inline-block;
-    background-color: white;
-    padding: 20px 0px 5px 5px;
-}
-
-
-.top-img{
-    margin-top: 5px;
-    height: 220px;
-    background-size: cover;
-    /* border-bottom-left-radius: 20%; */
-}
-
-.bagS{
-    margin: 50px 0px 10px 30px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-.categorie{
-    width: 162px;
-    height: 220px;
-    display: inline-block;
-    background-color: white;
-    padding: 0px 0px 0px 0px;
-}
-
-.BAGS{
-    margin-top: 0px;
-    width: 100%;
-    height: 220px;
-    background-size: cover;
-}
-
-.topdeals{
-    margin: 50px 0px 30px 30px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-.topbrands{
-    width: 162px;
-    height: 250px;
-    display: inline-block;
-    background-color: white;
-    padding: 0px 0px 0px 0px;
-}
-
-.brands{
-    margin-top: 0px;
-    width: 100%;
-    height: 250px;
-    background-size: cover;
-}
-
-.price{
-    margin: 50px 0px 10px 30px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-.BRANDSPRICES{
-    width: 187px;
-    height: 250px;
-    display: inline-block;
-    background-color: white;
-    padding: 0px 0px 0px 0px;
-}
-
-.brand{
-    margin-top: 0px;
-    width: 100%;
-    height: 250px;
-    background-size: cover;
-}
-
-.buy{
-    margin: 50px 0px 10px 30px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-.topbuy{
-    width: 180px;
-    height: 250px;
-    display: inline-block;
-    background-color: white;
-    /* padding: 0px 0px 0px 0px; */
-}
-
-.toppicks{
-    margin-top: 0px;
-    width: 100%;
-    height: 220px;
-    background-size: cover;
-}
-
-.myntra{
-    margin: 50px 0px 10px 30px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-.luxe{
-    width: 180px;
-    height: 250px;
-    display: inline-block;
-    background-size: cover;
-    background-color: black;
-}
-
-.myntraluxe{
-    width: 100%;
-    height: 220px;
-    background-size: cover;
-}
-
-.card{
-    margin: 50px 0px 10px 30px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-.gift{
-    width: 330px;
-    height: 200px;
-    display: inline-block;
-    background-size: cover;
-}
-
-.giftcard{
-    width: 100%;
-    height: 280px;
-    background-size: cover;
-}
-
-.gifting{
-    padding-top: 77px;
-    width: 187px;
-    height: 250px;
-    display: inline-block;
-    background-size: cover;
-}
-
-.giftcard-img{
-    width: 100%;
-    height: 250px;
-    background-size: cover;
-}
-
-.her{
-    margin: 50px 0px 10px 15px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-.trend{
-    
-    width: 187px;
-    height: 250px;
-    display: inline-block;
-    background-size: cover;
-}
-
-.trendher{
-    width: 100%;
-    height: 250px;
-    background-size: cover;
-}
-
-.him{
-    margin: 50px 0px 10px 15px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-.trends{
-    
-    width: 187px;
-    height: 250px;
-    display: inline-block;
-    background-size: cover;
-}
-
-.trendhim{
-    width: 100%;
-    height: 250px;
-    background-size: cover;
-}
-
-.kid{
-    margin: 50px 0px 10px 15px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-.trendy{
-    width: 187px;
-    height: 250px;
-    display: inline-block;
-    background-size: cover;
-}
-
-.trendkid{
-    width: 100%;
-    height: 250px;
-    background-size: cover;
-}
-
-.new{
-    margin: 50px 0px 10px 15px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-.newtop{
-    width: 187px;
-    height: 250px;
-    display: inline-block;
-    background-size: cover;
-}
-
-.newtopbrand{
-    width: 100%;
-    height: 250px;
-    background-size: cover;
-}
-
-.newness{
-    margin: 50px 0px 15px 15px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-.every{
-    width: 330px;
-    height: 240px;
-    display: inline-block;
-    background-size: cover;
-}
-
-.occasion{
-    width: 100%;
-    height: 250px;
-    background-size: cover;
-}
-
-.beaut{
-    margin: 50px 0px 15px 15px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-.latest{
-    width: 329px;
-    height: 200px;
-    display: inline-block;
-    background-size: cover;
-}
-
-.latestbeauty{
-    width: 102%;
-    height: 250px;
-    background-size: cover
-}
-
-.season{
-    margin: 90px 0px 15px 15px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-.unmissable{
-    width: 187px;
-    height: 250px;
-    display: inline-block;
-    background-size: cover;
-}
-
-.seas{
-    /* width: 100%; */
-    height: 250px;
-    background-size: cover;
-}
-
-.color{
-    margin: 50px 0px 10px 15px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-.colors{
-    padding: 5px;
-    width: 318.5px;   /*real value = 269.5px*/
-    height: 227.5px;  /*real value = 192.5px*/
-    display: inline-block;
-    background-size: cover;
-}
-
-.colorseason{
-    padding: 5px;
-    width: 318.5px;
-    height: 227.5px;
-    background-size: cover;
-}
-
-.budget{
-    margin: 50px 0px 10px 15px;
-    font-size: 28.8px;
-    color: black;
-    font-weight: bolder;
-}
-
-.budgetpicks{
-    width: 160px;
-    height: 205px;
-    display: inline-block;
-    background-size: cover;
-}
-
-.budgetinflu{
-    width: 160px;
-    height: 205px;
-    background-size: cover;
-}
-
-/* --------------------------------------------------------------------------------------------------------------------------- */
-
-.foot-panel{
-    background-color: #eceef0;
-    width: 100%;
-    height: 360px;
-    padding: 30px 0px 40px 20px;
-    color: #282c3f;
-    display: flex;
-    font-size: 12px;
-}
-
-ul{
-    margin-top: 10px;
-}
-
-ul p{
-    color: black;
-    font-weight: bolder;
-}
-
-ul a{
-    font-size: 14px;
+@media (width<600px) {
+  .navbar_right {
+    display: none;
+  }
+  #menu {
     display: block;
-    color: #696b79;
-    margin-top: 10px;
+  }
 }
 
-.orignal{
-    font-size: 20px;
-    display: block;
-    color: black;
+.btn_menu{
+  display: flex;
+  align-items: center;
+  gap: 7px;
 }
 
-.pop{
-    font-size: 14px;
-    color: black;
-    display:inline;
+.btn_menu button{
+  background: radial-gradient(circle at 1.2% 5.3%, rgb(255, 85, 166) 0%, rgb(255, 154, 98) 100.2%);
+  color: black;
+  font-size: 15px;
+  padding: 5px;
+  color: white;
+  border-radius: 4px;
 }
 
-.foot-panel2{
-    margin: 0px;
-    background-color: #eceef0;
-    width: 100%;
-    height: 200px;
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 
-.popsear{
-    width: 100%;
-    background-color: #eceef0;
+.overlay-content {
+  position: relative;
+  top: 16%;
+  width: 100%;
+  text-align: center;
 }
 
-.popsearch{
-    background-color: #eceef0;
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 28px;
+  margin-top: 12px;
+  color: white;
+  display: block;
+  font-family: sans-serif;
+  transition: 0.3s;
+}
+
+.overlay a:hover {
+  color: coral;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: -21px;
+  right: 16px;
+  font-size: 50px;
 }
